@@ -1,0 +1,76 @@
+footer {  
+    
+    .bg__wrapp {
+        padding: 1rem 0;
+        background: #313131;
+        color: #fff;
+        font-size: 13px;
+    }
+      
+    .logo img {
+        max-height: 5.5rem;
+    }
+    
+    ul { 
+        &.social__links {
+            li {
+                margin-right: .25rem;
+                margin-bottom: 0; 
+                a {
+                    display: flex;background-color: var(--white);border-radius: .25rem;
+                    font-size: 1rem;color: #000000;width: 2rem;height: 2rem;justify-content: center;align-items: center;
+
+                    &:hover {
+                        text-decoration: none;background-color: var(--dark);color: var(--white);
+                    }
+                }
+
+                &:not(:first-child) {
+                    margin-left: .5rem;
+                }
+            }
+        }
+    } 
+ 
+    .policy__links {
+        a {
+            color: var(--white);
+            font-weight: 400;
+            position: relative;
+            &:not(:last-child) {
+                margin-right: .75rem;
+
+                &::after {
+                    content: '|';font-size: 1rem;display: inline-block;color: #AFAFAF;
+                    position: absolute;top: -.2rem;right: -.5rem;
+                }
+            }
+        }
+    }
+    .techpuller {  font-weight: 400;color: var(--white); }
+}
+
+/*---------------------- Back to Top Css --------------*/
+.backTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem; 
+    background-color: var(--brand);
+    z-index: 99;
+    display: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLWNoZXZyb24tdXAiPjxwb2x5bGluZSBwb2ludHM9IjE4IDE1IDEyIDkgNiAxNSI+PC9wb2x5bGluZT48L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-size: 1.75rem;
+    background-position: center center;
+    border-radius: 50%;
+    &:hover { 
+        background-color: var(--dark); 
+    }
+    &.show {
+        display: block;
+    }
+}
+ 
+ 

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+:root {
+    --mont: 'Montserrat', sans-serif;
+}
+
+/*-------- Page Header Styles -------------*/ 
+.page__header {
+    box-shadow: inset 0 0 0 2000px rgba($color: #000000, $alpha: 0.65);
+    background-repeat: no-repeat;background-size: cover;background-position: center center;
+    min-height: 17rem; 
+}
+.blog__card {
+    // border: 1px solid #E2E2E2;  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    .thumbnail img { border-radius: .35rem; }
+    .title { 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;line-height: 1.5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+
+        a {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            white-space: normal;
+        }
+    }
+    .desc {
+        // min-height: 4rem;
+        line-height: 1.5;
+        color: #6c6c6c;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
+    .more__link {
+        color: var(--dark);
+        .arrow {
+            font-size: 1.5rem;
+            line-height: .5; 
+            display: inline-block;
+            position: relative;
+            top: -2px;
+            left: .5rem;
+            transition: all .3s ease-in-out;
+        }
+        
+        &:hover {
+            color: var(--dark); 
+            .arrow {
+                left: 1rem; 
+            }
+        }
+    }
+} 
+
+
+.cover {
+    object-fit: cover;object-position: center center;
+}
+ 
+.content__box { 
+    max-width: 880px; width: 100%;
+
+    .h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 600; }
+
+    p {
+        font-size: 1.067rem;
+    }
+}
+
+ 
+ 
+
+@media (max-width:992px) {
+    .page__header { 
+        min-height: 12rem;  
+    } 
+}
+
+ 
+
+@media (max-width:576px) {
+    .page__header { 
+        min-height: 9rem; 
+    }
+    .content__box {
+        p {
+            font-size: .937rem;
+        }
+    }
+}

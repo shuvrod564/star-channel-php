@@ -1,0 +1,107 @@
+ 
+.page__header { position: relative;
+
+    .banner { border-radius: 0 0 3rem 3rem; }
+    &::before {
+        content: '';width: 100%;height: 100%;display: block;box-shadow: inset 0 0 0 2000px rgba($color: #000000, $alpha: 0.27);
+        position: absolute;top: 0%;left: 0%;z-index: 11;border-radius: 0 0 3rem 3rem;
+    }
+
+    &.shadow-none::before { content: none; }
+}
+
+.aum_half_logo {
+    max-width: 130px;
+}
+
+
+
+
+/*------------- Contact Wrapper Styles ------------*/
+.contact__wrapper {
+    .heading { color: #333333;letter-spacing: 0; }
+    label { color: #808080; }
+    .form-control {
+        border-radius: 0;border:0;border-bottom: 1px solid var(--border-color);padding-left: 0;
+        color: #000;
+    }
+
+    .checkbox__wrapp {
+        background-color: #F0F0F0;border-radius: .5rem;
+
+        .form-check-input {
+            width: 1.5rem;height: 1.5rem;border-radius: .2rem;border-color: var(--border-color);
+
+            &:checked {
+                background-color: var(--dark);
+                border-color: var(--dark);
+            }
+        }
+    }
+
+    .text-black { color: #333333 !important; }
+    ._badge { right: 1.5rem; }
+
+    .project__submit__btn {
+        background-color: #313131;border-radius: .5rem;min-width: 35rem;font-size: 1.5rem;
+        border-color: #313131;
+
+        &:hover, &:focus, &:active {
+            background-color: transparent;
+        }
+    }
+
+    .icon {
+        height: 3rem;
+    }
+    .large_logo {
+        height: 1.9rem;
+    }
+    .small_logo {
+        height: 1.3rem;
+    }
+
+    .card {
+        background-color: #000000;
+
+        &.bg-light { background-color: #1C1C1C !important; }
+    }
+} 
+.map {
+    max-height: 32rem;
+    overflow: hidden;position: relative;width: 100%;background-color: #ccc; 
+    &::after { padding-top: 56.25%;display: block;content: ''; }
+    iframe {
+        position: absolute;top: 0;left: 0;
+        width: 100%;height: 100%;border-width: 0px;
+    }
+}
+
+
+
+.success__wrapper {
+    min-height: calc(100vh - 11.5rem);
+}
+
+.disc__list {
+    padding-left: 1.5rem;
+    li { list-style-type: disc; }
+}
+
+
+
+
+.projectItem {
+    position: relative;display: block;
+ 
+
+    &::after {
+        content: '';display: block;width: calc(100% - 1rem);height: calc(100% - 1rem);position: absolute;top:.5rem;left: .5rem;
+        z-index: 5;transform: scale(0);transition: all .3s ease-in-out;
+        background: url('data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5ODAgNjIzLjYiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojZmZmO308L3N0eWxlPjwvZGVmcz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik01MDAsMTg4LjJjLTE3OS4xLDAtMzE4LjgsMTE4LjktNDkwLDMxMS43QzE1Ny42LDY2NC43LDI4MS40LDgxMS44LDUwMCw4MTEuOFM4NzkuMyw2MjUuNiw5OTAsNTAzLjRDODc2LjcsMzYwLjIsNzE2LDE4OC4yLDUwMCwxODguMlptMCw1MTkuN2MtMTA4LjEsMC0xOTYtOTMuMi0xOTYtMjA3LjlzODgtMjA3LjksMTk2LTIwNy45UzY5NiwzODUuMyw2OTYsNTAwLDYwOC4xLDcwNy45LDUwMCw3MDcuOVptMC0zMjkuMmMtNjMsMC0xMTQuMyw1NC40LTExNC4zLDEyMS4zUzQzNyw2MjEuMyw1MDAsNjIxLjMsNjE0LjMsNTY2LjksNjE0LjMsNTAwLDU2MywzNzguNyw1MDAsMzc4LjdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAgLTE4OC4yKSIvPjwvc3ZnPg==') no-repeat center center / 3rem;background-color: #0000009D;
+    }
+  
+    &:hover { 
+        &::after { transform: scale(1); }
+    }
+}

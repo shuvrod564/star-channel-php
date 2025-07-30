@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    
+ 
+    .header__wrapper {
+        .h1 {
+            font-size: 4rem; 
+        }
+        .desc {
+            width: 100%;
+          }
+    }
+    .video__modal {
+        .btn-close {
+            top: -2.5rem;right: 0rem; 
+        }
+    }
+
+    .quick__contact__wrapper .form__wrapp::after { 
+        width: 100vw;  
+        left: -31px;
+    }
+    
+}

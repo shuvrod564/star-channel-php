@@ -1,0 +1,79 @@
+
+@media (max-width: 576px) { 
+    
+    .header__wrapper {     
+        .h1 { font-size: 2.5rem;max-width: 100%;  }
+        .desc { 
+            font-size: 1.067rem;
+            line-height: 1.4;
+        }
+    }
+    .hero__promo__wrapper {
+        .play__btn {
+            width: 5rem;height: 5rem;
+
+            img {
+                max-height: 3rem;left: .15rem;
+            }
+        }
+        .banner {
+            border-radius: 0 0 1rem 1rem;
+        }
+    }
+    .nav-pills {
+        top: 4rem;
+        padding: 0.65rem 0 0 0;
+        .nav-link { 
+            margin-bottom: 0.5rem;
+            font-size: 11px;
+            padding: .35rem;
+        }
+    } 
+    .video__box .title {
+        bottom: 0.2rem;
+        font-size: 1.12rem;
+    }
+
+    
+    .accordion { 
+        .accordion-item { 
+            padding: 1rem 0;
+        }
+        .accordion-button {
+            padding-left: 0;padding-right: 0;font-weight: 500 !important;
+
+            &::after {
+                width: 1.5rem;
+                height: 2rem;
+                background-size: 1.35rem;
+            }
+        }
+        .accordion-body {
+            padding-left: 0;padding-right: 0;
+        }
+    }
+    
+    .page__header { 
+        .banner { border-radius: 0 0 1rem 1rem; }
+        &::before {
+            border-radius: 0 0 1rem 1rem;
+        }
+    }
+
+    .contact__wrapper ._badge {
+        right: .5rem;
+        padding-top: 2rem;
+        font-size: .85rem !important;
+    }
+    .contact__wrapper .project__submit__btn { 
+        min-width: 15rem;
+        font-size: 1.125rem;
+    }
+
+    .quick__contact__wrapper .form__wrapp::after {  
+        left: -15px;
+    }
+
+    
+  
+}

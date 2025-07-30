@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="34" height="34">
+	<title>whatsapp</title>
+	<defs>
+		<image  width="34" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAAAXNSR0IB2cksfwAAAYlQTFRFAAAAdnZ2srKy7e3t7e3t7u7utbW1dnZ2PDw8s7OzsrKyPT09PDw8srKyLi4ufHx8q9+0nNyoVc1sWs5wod2suOLAs7Ozod2tVM1sVM1rsbGxsbGxx+XNXs90aNF8srKyenp6xeTLx+XMPDw8xOTLOTk5XM5y1PLZ/v7+/f79YtB3ot2t0/HZpeSxY9F44vbmdnZ2pt6xqua1gNmRqN6ysrKymdumqeW1mtunsbGx7u7uXc9z7e3t2PPdg9qUld+jfNiNWM5u+v367PnudNaH7u7uYM91f9mQ0/LZYM920PHWedeLVs1t9fv23PTgd3d3xOTK+v37zfDUxeXLdnZ2XM9ysbGxo92u1fLb8vr0p96ysrKyPT09d9SJu+vEXs9zfNWNPT097e3tidiZyeXOsrKy7u7uOjo6dNOHetWM7+/vidiYw+TJu+LDZ9F7V81upN2vxuXMY9B4W85xweTI7e3tdnZ27OzssrKy7+/vOzs7SUlJsbGxPj4+dnZ2d3d37u7u7u7ud3d3ftoF7AAAAIN0Uk5TAH+F9P/kgHlAv68/L78LQP///////5b///9fl////2RB//8z/xv/////////////gP////+H////hvn/9v//////////1////////////3L/////cP+a/////5I7/////zbF//+e8zX//8P/////////////912upsw8B5k6aE3Q33Q38YdrAAABxklEQVR4nH2U+yNUQRTHB9+wSjKt1morkhotudmkVOSxLlmJHt7viEpFSU/UX+6csTt3du7y/eXO95zP3plz7pwVwlJRcQlIZ0rLREGVR2Cp4mwIOFcJR5Hz+USVjl6olqyL0Rpty23iEkditdIoHuNIXUBcJpu4IvN0NUHBazminkyDDOl6sFcjLW+EiWOmSSNUS6IQISXtFdH9IPYmB26pZge5nd2KOpZk36KUanUYqquSECLZ3SFCtblbUVIID7jLpp0RlXKQe0CR6ADuB0ingzwAHoouIM7mERMt7kZx4HHuKFI+ISRcNx/GIN2E9JyOUF+Ueno60tunVP9AASQNDGZtik/s08JXQ9nqh4E09yWZ+4nPzLORzCg9njMrk4AnxoAX5rWpcWU0wYGXwCv9ATKGyQwZhLv4Wn8A8QaYtM7nTx0T02xmgFlC5oict4vwO5uVWlik1RKllvnCrACroZZpvQXW9K0LOuOILt26Jt6ddC8T5npTY6IU2FjKBzYDQrwHPkQ/kt/6FACfv9jjaI3xdmyH81+T39jt5ojv2fSeO/Y/zLDSUfDT+yXEb88G/vwN5nnX2zfrA++Q0/+8//Z/whHWs1qw/oUPOQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
