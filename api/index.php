@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>AUM Productions</title>
- 
-    <!-- CSS -->
-    <?php $folder="root"; include_once('incs/stylesheets.inc.php'); ?>
-</head>
-<body>  
+<?php
+// api/about.php
+declare(strict_types=1);
 
-    <!-- Navbar -->
-    <?php $folder="root"; include_once('incs/navbar.inc.php'); ?>
+// Use __DIR__ to reference relative paths on the server
+require __DIR__ . '/../includes/header.inc.php'; 
+?>
+
  
     <!-- Header Wrapper Start -->
     <header class="header__wrapper py-5 position-relative">  
@@ -432,10 +424,8 @@
     <?php $folder="root"; include_once('incs/ready-for-start-project-promo.inc.php'); ?>
     <!-- Over View Wrapper End -->
   
+
     <!-- Footer -->
-    <?php $folder="root"; include_once('incs/footer.inc.php'); ?>
-    
-</body>
-</html>
+    <?php require __DIR__ . '/../includes/footer.inc.php'; ?>
 
 
